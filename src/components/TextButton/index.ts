@@ -18,12 +18,12 @@ const TextButton = styled.button<ITextButton>`
   color: white;
   background-color: ${(props) =>
     props.color === 'primary'
-      ? '#6254FF'
+      ? '#1991EB'
       : props.color === 'green'
       ? '#00b300'
       : props.color === 'red'
       ? '#f64747'
-      : '#6254FF'};
+      : '#1991EB'};
 
   &:hover {
     opacity: 0.8;
